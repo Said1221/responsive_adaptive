@@ -27,7 +27,7 @@ class mobile extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text('Login into your account' , style: TextStyle(fontSize: 50),),
+                  Text('Login into your account..' , style: TextStyle(fontSize: 50),),
                   TextFormField(
                     keyboardType: TextInputType.text,
                     decoration: InputDecoration(
