@@ -31,7 +31,7 @@ class mobile extends StatelessWidget {
                   TextFormField(
                     keyboardType: TextInputType.text,
                     decoration: InputDecoration(
-                      label: Text('Email'),
+                      label: Text('Email address'),
                     ),
                   ),
                   SizedBox(
