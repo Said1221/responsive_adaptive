@@ -1,11 +1,18 @@
 import 'dart:io';
 
+import 'package:desktop_window/desktop_window.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_adaptive/component.dart';
 import 'package:responsive_adaptive/mobile.dart';
 import 'package:responsive_adaptive/web.dart';
 
-void main() {
+void main() async{
+
+  if(Platform.isWindows){
+    await DesktopWindow.setMinWindowSize(Size(650, 650));
+  }
+
+
   runApp(const MyApp());
 }
 
